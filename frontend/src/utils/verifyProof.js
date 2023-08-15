@@ -1,5 +1,6 @@
 const { keccak256 } = require('ethereum-cryptography/keccak');
 const { hexToBytes, bytesToHex } = require('ethereum-cryptography/utils');
+const { Buffer } = require('buffer');
 
 const concat = (left, right) => keccak256(Buffer.concat([left, right]));
 

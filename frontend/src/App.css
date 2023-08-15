@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(37, 37, 37);
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 20px;
+}
+input{
+  padding: 10px;
+  font-size: 18px;
+}
+img{
+  width: 200px;
+}
